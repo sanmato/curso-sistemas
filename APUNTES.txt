@@ -1,1 +1,21 @@
 git add *.txt --> coincidencias de formato
+
+CICLO GIT: 
+
+1. git pull
+
+*** Posible resolución de conflictos ***
+En este nivel de curso, sólo pueden aparecer conflictos si se da lo siguiente:
+
+a) Subimos archivos de código a traves de github.commit
+
+b) Hay mas de un participante
+
+(...trabajar) -->   No tiene necesidad cuando se trata de un proyecto con un solo participante
+                    pero es buena practica. Solo aparecerá un mensaje de que esta todo al dia
+
+2. git status
+3. git add 
+4. git status
+5. git commit -m "Mi mensaje"
+6. git push 
