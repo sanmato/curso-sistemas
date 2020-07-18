@@ -1,0 +1,1 @@
+git add *.txt --> coincidencias de formato
