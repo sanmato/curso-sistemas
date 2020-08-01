@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario POST</title>
+</head>
+
+<style>
+   input[type=text], input[type=password]{
+       width: 95%;
+   }
+
+   input[type=email] {
+       width: 97%;
+   }
+</style>
+
+
+<body>
+    <div style="width: 65%;">
+        <form action="form_post_server.php" method="POST" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <th>
+                        <h1>Create Account</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <label>First name* </label>
+                        <br>
+                        <input type="text" name="name" required>
+                    </td>
+                    <td>
+                        <label>Last name </label>
+                        <br>
+                        <input type="text" name="last_name">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <label>Email*</label>
+                        <br>
+                        <input type="email" name="email" required size="63%">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password* </label>
+                        <br>
+                        <input type="password" name="password" required>
+                    </td>
+                    <td>
+                        <label>Confirm Password* </label>
+                        <br>
+                        <input type="password" name="confirmPassword" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender </label>
+                        <br>
+                        <input type="radio" id="gender1" name="gender" value="male">
+                        <label for="gender1">Male</label>
+                        <input type="radio" id="gender2" name="gender" value="female">
+                        <label for="gender2">Female</label>
+                    </td>
+                    <td>
+                        <label>Hobbies</label>
+                        <br>
+                        <input type="checkbox" id="hobbie1" name="hobbie1" value="music">
+                        <label for="hobbie1">Music.</label>
+                        <input type="checkbox" id="hobbie2" name="hobbie2" value="sports">
+                        <label for="hobbie2">Sports.</label>
+                        <input type="checkbox" id="hobbie3" name="hobbie3" value="travel">
+                        <label for="hobbie3">Travel.</label>
+                        <input type="checkbox" id="hobbie4" name="hobbie4" value="movies">
+                        <label for="hobbie4">Movies.</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Source of Income</label>
+                        <br>
+                        <select name="source_of_income">
+                            <option value="employed">Employed</option>
+                            <option value="freelancer">Freelancer</option>
+                            <option value="other">Other</option>
+                        </select>  
+                    </td>
+                    <td>
+                        <label>Income</label>
+                        <br>
+                        <input type="range" name="income" step="10" min="0" max="20" value="0">
+                        <label>20K</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Upload Profile Picture</label>
+                        <br>
+                        <input type="file" name="upload">
+                    </td>
+                    <td>
+                        <label>Age</label>
+                        <br>
+                        <input type="text" name="age">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <label>Bio</label>
+                        <br>
+                        <textarea name="suggests" rows="4" cols="65"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Create">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
