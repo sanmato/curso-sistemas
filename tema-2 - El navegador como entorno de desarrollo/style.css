@@ -1,3 +1,59 @@
-button{
+.number{
+    color: white;
+    background-color: blue;
+
+    font-size: 50%;
+    font-weight: bold;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    border-color: blue;
+    border-style: none;
+    box-shadow: 0px 3px rgb(0, 0, 174);
+}
+
+.operation{
+    color: rgb(255, 255, 255);
+    background-color: rgb(109, 211, 51);
+
+    font-size: 50%;
+    font-weight: bold;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    border-color: green;
+    border-style: none;
+    box-shadow: 0px 3px rgb(41, 174, 0);
+}
+
+.result{
+    color: rgb(255, 255, 255);
+    background-color: orange;
+
+    font-size: 50%;
+    font-weight: bold;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    border-color: green;
+    border-style: none;
+    box-shadow: 0px 3px rgb(223, 112, 0);
+}
+
+.delete{
+    color: #ffffff;
+    background-color: red;
+    
+    font-size: 50%;
+    font-weight: bold;
+
     width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    border-color: red;
+    border-style: none;
+    box-shadow: 0px 3px rgb(210, 0, 0);
 }
