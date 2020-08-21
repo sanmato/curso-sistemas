@@ -43,7 +43,7 @@ let identificarLacteoDeMayorContenidoDeCalcio = (tabla_de_datos) => {
     tabla_de_datos.sort ((c1, c2) => (c1.contenido_calcio < c2.contenido_calcio) ? 1 : 
         (c1.contenido_calcio > c2.contenido_calcio) ? -1 : 0);
 
-    // Este otro metodo ordena la lista mediante la comparacion de valor de una de las propiedades
+    // Este otro metodo ordena la lista mediante la comparacion de valor de una de las propiedades, en este caso el contenido
 
     return tabla_de_datos[0].lacteo;
 }
